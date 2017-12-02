@@ -1,4 +1,4 @@
-# sighup
+# sighup [:whale:](https://hub.docker.com/r/thiht/sighup/ "thiht/sighup")
 
 This container logs the current date when it receives the `SIGHUP` signal.
 
@@ -9,13 +9,13 @@ I needed something simple to perform `SIGHUP` notification tests with [docker-ge
 ## Build
 
 ```sh
-$ docker build -t sighup:latest .
+$ docker build -t thiht/sighup:latest .
 ```
 
 ## Run
 
 ```sh
-$ docker run -d --name sighup sighup:latest
+$ docker run -d --name sighup thiht/sighup:latest
 ```
 
 ## Test
